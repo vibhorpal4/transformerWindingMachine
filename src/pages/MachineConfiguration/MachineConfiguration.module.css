@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.page_table_heading {
+  margin: 10px;
+  text-align: left;
+  color: red;
+  font-weight: 200;
+}
+
+.left {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.loadMachineButton {
+  margin-top: 50px;
+  width: 400px;
+  height: 90px;
+  background-color: pink;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}

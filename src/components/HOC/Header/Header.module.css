@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 180px;
+  height: 80px;
+}
+
+.page_title_heading {
+  text-align: center;
+  color: red;
+}
+
+.page_datetime {
+  text-align: right;
+}

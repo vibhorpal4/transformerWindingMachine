@@ -1,0 +1,39 @@
+.page_title_heading {
+  text-align: center;
+  color: red;
+}
+
+.page_datetime {
+  text-align: right;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.mainWrapper > button {
+  width: 550px;
+  height: 200px;
+  margin-bottom: 50px;
+  background-color: #beec73;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mainWrapper > div > button {
+  width: 550px;
+  height: 200px;
+  margin-bottom: 50px;
+  background-color: #beec73;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px 50px;
+}

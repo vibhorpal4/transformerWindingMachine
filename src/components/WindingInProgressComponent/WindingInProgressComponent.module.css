@@ -1,0 +1,115 @@
+.container {
+  height: 400px;
+  width: 90%;
+  padding: 10px 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.topBox {
+  background-color: lightblue;
+  width: 48%;
+  text-align: center;
+  color: black;
+  vertical-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* margin: 5px 5px; */
+}
+
+.topBox > h4 {
+  font-size: 25px;
+}
+
+.topBoxRight {
+  background-color: pink;
+  width: 48%;
+  text-align: center;
+  color: black;
+  vertical-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.topBoxRight > h4 {
+  font-size: 25px;
+}
+
+.main {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid gray;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.main > h3 {
+  font-size: 30px;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+.windingInProcessSectionBottomColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.windingInProcessSectionBottomLeftColumn {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+.windingInProcessSectionBottomRightColumn {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.windingInProcessSectionBottomLeft {
+  width: 60px;
+  background-color: pink;
+  padding: 2px 2px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 2.5px 2.5px;
+}
+
+.windingInProcessSectionBottomRight {
+  width: 250px;
+  background-color: pink;
+  border: 1px solid gray;
+  padding: 2px 2px;
+  border-radius: 5px;
+  margin: 2.5px 2.5px;
+}
+
+.windingInProcessSectionBottomRightYellow {
+  width: 250px;
+  background-color: pink;
+  border: 1px solid gray;
+  padding: 2px 2px;
+  border-radius: 5px;
+  margin: 2.5px 2.5px;
+  background-color: yellow;
+}
+
+.columnData {
+  font-size: 23px;
+}

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.innerDataBlue {
+  background-color: lightblue;
+  width: 50px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDataBlue > span {
+  font-size: 17px;
+}
+
+.innerDataPink {
+  background-color: lightpink;
+  width: 50px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDataPink > span {
+  font-size: 17px;
+}
+
+.dataBlue {
+  background-color: lightblue;
+  width: 160px;
+  margin: 1px 1px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataBlue > span {
+  font-size: 17px;
+}
+
+.dataYellow {
+  background-color: yellow;
+  width: 160px;
+  margin: 1px 1px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataYellow > span {
+  font-size: 17px;
+}

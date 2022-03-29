@@ -1,0 +1,192 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.machineOperationSelectionButton {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+
+.machineOperationSelectionButton > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.machineOperationSelectionButton > div > button {
+  background-color: #0f42f5;
+  color: white;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 2px 5px;
+}
+
+.leftButtonSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.errorButton {
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.enterButton {
+  background-color: #beec73;
+  color: black;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.center {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right {
+  width: 30%;
+  justify-content: center;
+}
+
+.rightTopColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rightTopBox {
+  width: 48%;
+  background-color: #beec73;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightTopBox > h3 {
+  font-size: 25px;
+}
+
+.rightTopInput {
+  width: 48%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.rightTopInput > h3 {
+  font-size: 25px;
+}
+
+.rightTopInput > p {
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.rightBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .rightBottomLeft {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  } */
+
+/* .upArrowWrapper {
+    height: auto;
+    background-color: lightgray;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 20px;
+    justify-content: center;
+  }
+  
+  .downArrowWrapper {
+    height: auto;
+    background-color: lightgray;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    width: 20px;
+    justify-content: center;
+  }
+  
+  .arrowImg {
+    width: 15px;
+    height: 30px;
+  } */
+
+.rightBottomRight {
+  border: 1px solid gray;
+  margin-left: 30px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rightBottomRightButton {
+  background-color: #beec73;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  height: 70px;
+  width: 200px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
